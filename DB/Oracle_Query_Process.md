@@ -46,7 +46,7 @@ ORA-00923: FROM keyword not found where expected
 #### Semantic Check
 의미 체크 단계. 여기선 문장이 의미 있는지를 체크함. 예를들면 문장 안의 컬럼이나 개체가 존재하는지를 체크.
 
-```
+```sql
 SQL> SELECT * FROM nonexistent_table;
 SELECT * FROM nonexistent_table
               *
